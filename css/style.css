@@ -34,9 +34,9 @@ h6 {
   font-size: 16px;
 }
 p {
-  font-size: 14px;
+  font-size: 16px;
   font-family: montserrat, sans-serif;
-  color: #666;
+  color: rgb(39, 39, 39);
   font-weight: 400;
   line-height: 24px;
   margin: 0 0 15px;
@@ -545,7 +545,7 @@ ol {
   content: "";
   border-radius: 50%;
   z-index: -1;
-  margin-left: -91.5px;
+ 
 }
 .discount__text__title span {
   font-size: 12px;
@@ -978,7 +978,7 @@ ol {
   margin-right: 0;
 }
 .product__hover li:hover a {
-  background: #43aa07;
+  background: rgba(196, 7, 48, 0.774);
 }
 .product__hover li:hover a span {
   color: #fff;
@@ -1036,7 +1036,7 @@ ol {
 }
 .product__item__text .product__price span {
   font-size: 14px;
-  color: #b1b0b0;
+  color: #8019199a;
   text-decoration: line-through;
   margin-left: 4px;
 }
@@ -3058,7 +3058,11 @@ ol {
   .contact__content {
     margin-bottom: 40px;
   }
+  
 }
+
+
+
 @media only screen and (max-width: 479px) {
   .categories__item.categories__large__item {
     padding-left: 30px;
@@ -3118,3 +3122,24 @@ ol {
     font-size: 24px;
   }
 }
+
+
+.first_img{
+  display: none;
+ }
+
+ @media (max-width: 780px){
+  .first_img{
+    display: inline;
+   }
+ }
+
+ .first_img1{
+  display: inline;
+ }
+
+ @media (max-width: 780px){
+  .first_img1{
+    display: none;
+   }
+ }
